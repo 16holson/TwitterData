@@ -7,7 +7,7 @@ from dataclasses import dataclass
 from azure.core.credentials import AzureKeyCredential
 from azure.ai.textanalytics import TextAnalyticsClient
 
-api_key = '11c8477a9bfc46d690c45e2f14d03710'
+api_key = 'needs api key'
 api_endpoint = 'https://westus2.api.cognitive.microsoft.com/'
 api_call = TextAnalyticsClient(endpoint=api_endpoint, credential=AzureKeyCredential(api_key))
 
@@ -23,7 +23,7 @@ cursor = connection.cursor()
 cursor.execute("SELECT @@version;")
 
 # Connecting to Twitter
-bearerToken = 'AAAAAAAAAAAAAAAAAAAAAFRoVgEAAAAAwavgzrgIz%2FMGci%2F56lqliXCSG68%3DLHxMkBcaPOneVEuexaD1CvQnrSj0pqJiRZpg6zMEoxTBcIN2aZ'
+bearerToken = 'needs bearer token'
 
 searchUrl = 'https://api.twitter.com/2/tweets/search/recent'
 
